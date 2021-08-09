@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TheLedgerCo-Sample-2.txt" />
+    <None Remove="TheLedgerCo-Sample-3.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="TheLedgerCo-Sample-2.txt" />
+    <Resource Include="TheLedgerCo-Sample-3.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TheLedgerCo-Sample-1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TheLedgerCo-Sample.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
