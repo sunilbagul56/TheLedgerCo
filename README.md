@@ -11,6 +11,9 @@ Set as startup project "TheLedgerCompany" (Console application)
 
 # Solution for this problem statement is implemented using
 Command Pattern
+
 Repository Pattern
+
 Added unit test cases
+
 Added extension methods for validations
